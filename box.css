@@ -1,0 +1,23 @@
+
+/* <div class="standard">I am using the standard box model.</div>
+<div class="standard alternate">I am using the alternate box model.</div>  */
+
+
+
+.standard {
+    border: 5px solid teal;
+    background-color: #A5CFE3;
+    padding: 40px;
+    margin: 40px;
+    width: 350px;
+    height: 150px;
+    }
+.alternate {
+box-sizing: border-box;
+border: 5px solid teal;
+background-color: #A5CFE3;
+padding: 40px;
+margin: 40px;
+width: 350px;
+height: 150px;
+}

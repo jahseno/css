@@ -1,0 +1,79 @@
+/* <ul class="nav">
+    <li><a href="#name">name</a></li>
+    <li><a href="#contact">contact</a></li>
+    <li><a href="#address">address</a></li>
+</ul>
+<ul class="log">
+    <li><a href="#logout">Logout</a></li>
+</ul>
+<div class="page-content">
+    <div class="card" id="name">
+    <p class="card-header">Name</p>
+    <p class="card-body">Hello! Tell us about yourself.</p>
+    </div>
+    </div>
+    <div class="card" id="contact">
+    <p class="card-header">contact</p>
+    <p class="card-body">socials:xxxxx telephone:000000 number:000000>
+    </div>
+    <div class="card" id="address">
+    <p class="card-header">Address</p>
+    <p class="card-body">somewhere  over the rainbow</p>
+    </div>
+    
+    </div>  */
+
+.nav{
+    background-color: rgb(74, 69, 69);
+    list-style-type: none;
+    position: fixed; top: 0; width: 100%;
+    line-height: 20px;
+}
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+.nav li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.log{
+    background-color: rgb(74, 69, 69);
+    list-style-type: none;
+    position: fixed; top: 0; width: 100%;
+    text-align: right;
+}
+.log li{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.log li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.page-content{
+    padding-top:30px;
+    overflow: hidden;
+    }
+    .card {
+     /* Add shadows to create the "card" effect */
+     border: 3px solid darkgray;
+     border-radius: 5px;
+     width: 70%;
+     margin-top:3%;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+     text-align: center;
+    }
+    .card-header{
+    padding:1%; 
+    font-size: 20px; 
+    font-weight: 700;
+    border-bottom: 2px solid rgb(192, 192, 192); }
+    .card-body{padding:5%;}
+    /* On mouse-over, add a deeper shadow */
+    .card:hover {
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);}
